@@ -91,6 +91,9 @@ Scripts from external sources:
 * thumbfast.lua ([source](https://github.com/po5/thumbfast))\
   High-performance on-the-fly thumbnailer for mpv. **The script does not display thumbnails on its own**, it is meant to be used alongside a UI script that calls thumbfast.
 
+* autosub.lua (located in the `scripts` folder)\
+  Automatically downloads subtitles for the current video using [subliminal](https://github.com/Diaoul/subliminal) (pip-installed). Default providers are `opensubtitlescom` and `podnapisi`. Trigger a manual download with `Ctrl+Alt+b` (preferred language) or `Ctrl+Alt+n` (second language). Configure via `script-opts/autosub.conf`.
+
 Configuration files for these scripts can be found in the `script-opts` folder. I also modified some of these scripts' default keybindings. To see my modifications, look for script keybindings in `input.conf`.
 
 ## Shaders
